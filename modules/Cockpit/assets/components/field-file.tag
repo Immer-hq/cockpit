@@ -14,16 +14,7 @@
 
             <span class="uk-margin-small-left" data-uk-dropdown="pos:'bottom-center'">
 
-                <button type="button" class="uk-button" ref="picker" title="{ App.i18n.get('Pick file') }" onclick="{ selectFile }"><i class="uk-icon-paperclip"></i></button>
-
-                <div class="uk-dropdown">
-                    <ul class="uk-nav uk-nav-dropdown uk-dropdown-close">
-                        <li class="uk-nav-header">{ App.i18n.get('Source') }</li>
-                        <li><a onclick="{ selectAsset }">{ App.i18n.get('Select Asset') }</a></li>
-                        <li><a onclick="{ selectFile }">{ App.i18n.get('Select File') }</a></li>
-                    </ul>
-                </div>
-
+                <button type="button" class="uk-button" ref="picker" title="{ App.i18n.get('Pick file') }" onclick="{ selectAsset }"></button>
             </span>
 
         </div>
