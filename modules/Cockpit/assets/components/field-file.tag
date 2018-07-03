@@ -13,8 +13,7 @@
             <input class="uk-form-blank uk-flex-item-1" type="text" ref="input" bind="{ opts.bind }" placeholder="{ opts.placeholder || App.i18n.get('No file selected...') }">
 
             <span class="uk-margin-small-left" data-uk-dropdown="pos:'bottom-center'">
-
-                <button type="button" class="uk-button" ref="picker" title="{ App.i18n.get('Pick file') }" onclick="{ selectAsset }"></button>
+                <button type="button" class="uk-button" ref="picker" title="{ App.i18n.get('Pick file') }" onclick="{ selectAsset }"><i class="uk-icon-paperclip"></i></button>
             </span>
 
         </div>

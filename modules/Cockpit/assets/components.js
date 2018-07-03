@@ -1807,7 +1807,7 @@ riot.tag2('field-date', '<input ref="input" class="uk-width-1-1" bind="{opts.bin
 
 });
 
-riot.tag2('field-file', '<div class="uk-panel uk-panel-box uk-panel-card "> <div ref="uploadprogress" class="uk-margin uk-hidden"> <div class="uk-progress"> <div ref="progressbar" class="uk-progress-bar" style="width: 0%;">&nbsp;</div> </div> </div> <div class="uk-flex uk-flex-middle"> <input class="uk-form-blank uk-flex-item-1" type="text" ref="input" bind="{opts.bind}" placeholder="{opts.placeholder || App.i18n.get(\'No file selected...\')}"> <span class="uk-margin-small-left" data-uk-dropdown="pos:\'bottom-center\'"> <button type="button" class="uk-button" ref="picker" title="{App.i18n.get(\'Pick file\')}" onclick="{selectAsset}"></button> </span> </div> </div>', '', '', function(opts) {
+riot.tag2('field-file', '<div class="uk-panel uk-panel-box uk-panel-card "> <div ref="uploadprogress" class="uk-margin uk-hidden"> <div class="uk-progress"> <div ref="progressbar" class="uk-progress-bar" style="width: 0%;">&nbsp;</div> </div> </div> <div class="uk-flex uk-flex-middle"> <input class="uk-form-blank uk-flex-item-1" type="text" ref="input" bind="{opts.bind}" placeholder="{opts.placeholder || App.i18n.get(\'No file selected...\')}"> <span class="uk-margin-small-left" data-uk-dropdown="pos:\'bottom-center\'"> <button type="button" class="uk-button" ref="picker" title="{App.i18n.get(\'Pick file\')}" onclick="{selectAsset}"><i class="uk-icon-paperclip"></i></button> </span> </div> </div>', '', '', function(opts) {
 
         var $this = this, $input;
 
