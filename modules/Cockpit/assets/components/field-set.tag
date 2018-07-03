@@ -8,6 +8,10 @@
 
         <div class="uk-margin" each="{field,idx in fields}">
             <label class="uk-display-block uk-text-bold uk-text-small">{ field.label || field.name || ''}</label>
+
+            <div class="uk-margin uk-text-small uk-text-muted">
+                { field.info || ' ' }
+            </div>
             <cp-field class="uk-display-block uk-margin-small-top" type="{ field.type || 'text' }" bind="value.{field.name}" opts="{ field.options || {} }"></cp-field>
         </div>
 
